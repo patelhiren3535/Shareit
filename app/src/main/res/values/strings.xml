@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Screditprofile</string>
+    <string-array name="language">
+
+    </string-array>
+    <string-array name="navDrawerItems">
+        <item>HOME</item>
+        <item>NEW FEEDS</item>
+        <item>FAVOURITE</item>
+        <item>SEARCH</item>
+        <item>RATE APP</item>
+        <item>SHARE APP</item>
+    </string-array>
+
+    <string-array name="navDrawerIcons">
+
+        <item>@drawable/socialgp</item>
+        <item>@drawable/socialgp</item>
+        <item>@drawable/socialgp</item>
+        <item>@drawable/socialgp</item>
+        <item>@drawable/socialgp</item>
+        <item>@drawable/socialgp</item>
+
+
+    </string-array>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_category_list">CategoryListActivity</string>
+
+</resources>

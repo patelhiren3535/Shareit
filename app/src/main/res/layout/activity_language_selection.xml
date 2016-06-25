@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.brijesh.screditprofile.Language_selection"
+    android:background="@drawable/bgmain"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="210dp"
+                android:layout_height="210dp"
+               android:layout_marginTop="30dp"
+                android:background="@drawable/earth"
+                android:id="@+id/earth"/>
+
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="75dp"
+                android:gravity="center"
+                android:layout_marginTop="25dp"
+                android:layout_below="@+id/earth"
+                android:text="Select The Language"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="#555"/>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#555" />
+
+            <Spinner
+                android:id="@+id/osversions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+               />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#555" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:padding="10dp"
+                android:layout_marginTop="55dp"
+                android:background="@drawable/buttonlanguage"
+                android:text="Set The Langauge"
+                android:textSize="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:id="@+id/Language_select"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
